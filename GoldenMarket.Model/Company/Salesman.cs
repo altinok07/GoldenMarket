@@ -23,6 +23,7 @@ namespace GoldenMarket.Model.Company
         public Model.Company.Company Company { get; set; }
 
         //Tabloya ismi çekmek için
+        [Write(false)]
         public string CompanyName
         {
             get { return Company.Name; }

@@ -20,6 +20,7 @@ namespace GoldenMarket.WinForm
         public int SalesmanId = 0;
         Business.Company.SalesmanManager salesmanManager = new Business.Company.SalesmanManager();
 
+
         private void btnSave_Click(object sender, EventArgs e)
         {
             Model.Company.Salesman salesman = new Model.Company.Salesman();
@@ -50,6 +51,7 @@ namespace GoldenMarket.WinForm
                     MessageBox.Show("Plasiyer Eklenemedi", "Uyarı", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 }
             }
+
             else
             {
                 salesman.Id = SalesmanId;
@@ -65,12 +67,11 @@ namespace GoldenMarket.WinForm
                 }
             }
 
-
         }
 
         private void frmSalesmanManager_Load(object sender, EventArgs e)
         {
-            GetCompany();
+            GetCompanies();
 
             if (SalesmanId == 0)
             {
@@ -87,9 +88,10 @@ namespace GoldenMarket.WinForm
                 chboxIsActive.Checked = salesman.IsActive;
             }
 
+
         }
 
-        public void GetCompany()
+        public void GetCompanies()
         {
             Business.Company.CompanyManager company = new Business.Company.CompanyManager();
             coboxSalesmanCompany.DataSource = company.GetAll();
@@ -97,14 +99,19 @@ namespace GoldenMarket.WinForm
             coboxSalesmanCompany.ValueMember = "Id";
         }
 
+
         public void Clear()
         {
             txtSalesmanName.Text = "";
             txtSalesmanPhone.Text = "";
             txtSalesmanMail.Text = "";
-            coboxSalesmanCompany.SelectedValue = "";
+            coboxSalesmanCompany.Text = "";
             chboxIsActive.Checked = false;
         }
+
+
+
+
 
     }
 }

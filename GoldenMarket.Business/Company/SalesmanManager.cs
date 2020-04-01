@@ -42,6 +42,16 @@ namespace Business.Company
             return _ISalesman.GetAll();
         }
 
+        public IEnumerable<Salesman> SearchByCompany(string text)
+        {
+            return _ISalesman.SearchByCompany(text);
+        }
+
+        public IEnumerable<Salesman> SearchByName(string text)
+        {
+            return _ISalesman.SearchByName(text);
+        }
+
         public bool Update(Salesman entity)
         {
             return _ISalesman.Update(entity);

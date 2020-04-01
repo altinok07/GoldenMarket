@@ -46,7 +46,75 @@ namespace GoldenMarket.Core.Repository.Company
         {
             using (var con = Connection.GetConnection())
             {
-                return con.GetAll<Model.Company.Salesman>();
+                string Query = @"SELECT
+                                *
+                                FROM
+                                Salesman s
+                                LEFT JOIN
+                                Company c
+                                ON
+                                s.CompanyId = c.Id
+                                ";
+
+                return con.Query<Model.Company.Salesman, Model.Company.Company, Model.Company.Salesman>(Query,
+                    (s, c) =>
+                    {
+                        s.Company = c;
+                        return s;
+                    }
+                    , splitOn: "Id");
+            }
+        }
+
+        public IEnumerable<Salesman> SearchByCompany(string text)
+        {
+            string st = "%" + text + "%";
+            string Query = @"SELECT
+                                *
+                                FROM
+                                Salesman s
+                                LEFT JOIN
+                                Company c
+                                ON
+                                s.CompanyId = c.Id
+                                WHERE c.Name like @text";
+
+            using (var con = Connection.GetConnection())
+            {
+                return con.Query<Model.Company.Salesman, Model.Company.Company, Model.Company.Salesman>(Query,
+                    (s, c) =>
+                    {
+                        s.Company = c;
+                        return s;
+                    }
+                    , new {text = st}
+                    ,splitOn:"Id");
+            }
+        }
+
+        public IEnumerable<Salesman> SearchByName(string text)
+        {
+            string st = "%" + text + "%";
+            string Query = @"SELECT
+                                *
+                                FROM
+                                Salesman s
+                                LEFT JOIN
+                                Company c
+                                ON
+                                s.CompanyId = c.Id
+                                WHERE s.Name like @text";
+
+            using (var con = Connection.GetConnection())
+            {
+                return con.Query<Model.Company.Salesman, Model.Company.Company, Model.Company.Salesman>(Query,
+                    (s, c) =>
+                    {
+                        s.Company = c;
+                        return s;
+                    }
+                    , new { text = st }
+                    , splitOn: "Id");
             }
         }
 

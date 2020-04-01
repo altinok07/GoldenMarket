@@ -61,14 +61,21 @@ namespace GoldenMarket.WinForm
                 else if(rbCompany.Checked )
                 {
                     dataGridView1.DataSource = new Business.Product.ProductManager().SearchByCompany(txtSearch.Text.ToString());
-                    MessageBox.Show("Aradığınız Ürün Bulunamadı...\nArama Tercihini Kontrol Ediniz...", "Uyarı", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    txtSearch.Text = "";
+                    if (dataGridView1.Rows.Count == 0)
+                    {
+                        MessageBox.Show("Aradığınız Ürün Bulunamadı...\nArama Tercihini Kontrol Ediniz...", "Uyarı", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        txtSearch.Text = "";
+                    }
+
                 }
                 else
                 {
                     dataGridView1.DataSource = new Business.Product.ProductManager().SearchByBarcode(txtSearch.Text.ToString());
-                    MessageBox.Show("Aradığınız Ürün Bulunamadı...\nArama Tercihini Kontrol Ediniz...", "Uyarı", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    txtSearch.Text = "";
+                    if (dataGridView1.Rows.Count == 0)
+                    {
+                        MessageBox.Show("Aradığınız Ürün Bulunamadı...\nArama Tercihini Kontrol Ediniz...", "Uyarı", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        txtSearch.Text = "";
+                    }
                 }                
             }
         }
