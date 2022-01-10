@@ -1,0 +1,64 @@
+C:\Users\Altinok\source\repos\GoldenMarket\GoldenMarket.WinForm\bin\Debug\GoldenMarket.WinForm.exe.config
+C:\Users\Altinok\source\repos\GoldenMarket\GoldenMarket.WinForm\bin\Debug\GoldenMarket.WinForm.exe
+C:\Users\Altinok\source\repos\GoldenMarket\GoldenMarket.WinForm\bin\Debug\GoldenMarket.WinForm.pdb
+C:\Users\Altinok\source\repos\GoldenMarket\GoldenMarket.WinForm\obj\Debug\GoldenMarket.WinForm.csprojAssemblyReference.cache
+C:\Users\Altinok\source\repos\GoldenMarket\GoldenMarket.WinForm\obj\Debug\GoldenMarket.WinForm.Properties.Resources.resources
+C:\Users\Altinok\source\repos\GoldenMarket\GoldenMarket.WinForm\obj\Debug\GoldenMarket.WinForm.csproj.GenerateResource.cache
+C:\Users\Altinok\source\repos\GoldenMarket\GoldenMarket.WinForm\obj\Debug\GoldenMarket.WinForm.exe
+C:\Users\Altinok\source\repos\GoldenMarket\GoldenMarket.WinForm\obj\Debug\GoldenMarket.WinForm.pdb
+C:\Users\Altinok\source\repos\GoldenMarket\GoldenMarket.WinForm\obj\Debug\GoldenMarket.WinForm.Form1.resources
+C:\Users\Altinok\source\repos\GoldenMarket\GoldenMarket.WinForm\bin\Debug\GoldenMarket.Business.dll
+C:\Users\Altinok\source\repos\GoldenMarket\GoldenMarket.WinForm\bin\Debug\GoldenMarket.Model.dll
+C:\Users\Altinok\source\repos\GoldenMarket\GoldenMarket.WinForm\bin\Debug\GoldenMarket.Core.dll
+C:\Users\Altinok\source\repos\GoldenMarket\GoldenMarket.WinForm\bin\Debug\Dapper.Contrib.dll
+C:\Users\Altinok\source\repos\GoldenMarket\GoldenMarket.WinForm\bin\Debug\Dapper.dll
+C:\Users\Altinok\source\repos\GoldenMarket\GoldenMarket.WinForm\bin\Debug\GoldenMarket.Business.pdb
+C:\Users\Altinok\source\repos\GoldenMarket\GoldenMarket.WinForm\bin\Debug\GoldenMarket.Model.pdb
+C:\Users\Altinok\source\repos\GoldenMarket\GoldenMarket.WinForm\bin\Debug\GoldenMarket.Core.pdb
+C:\Users\Altinok\source\repos\GoldenMarket\GoldenMarket.WinForm\bin\Debug\Dapper.Contrib.xml
+C:\Users\Altinok\source\repos\GoldenMarket\GoldenMarket.WinForm\bin\Debug\Dapper.xml
+C:\Users\Altinok\source\repos\GoldenMarket\GoldenMarket.WinForm\obj\Debug\GoldenMarket.WinForm.frmProductList.resources
+C:\Users\Altinok\source\repos\GoldenMarket\GoldenMarket.WinForm\obj\Debug\GoldenMarket.WinForm.csproj.CopyComplete
+C:\Users\Altinok\source\repos\GoldenMarket\GoldenMarket.WinForm\obj\Debug\GoldenMarket.WinForm.frmCompanyManager.resources
+C:\Users\Altinok\source\repos\GoldenMarket\GoldenMarket.WinForm\obj\Debug\GoldenMarket.WinForm.frmProductManager.resources
+C:\Users\Altinok\source\repos\GoldenMarket\GoldenMarket.WinForm\obj\Debug\GoldenMarket.WinForm.frmCustomerList.resources
+C:\Users\Altinok\source\repos\GoldenMarket\GoldenMarket.WinForm\obj\Debug\GoldenMarket.WinForm.frmCompanyList.resources
+C:\Users\Altinok\source\repos\GoldenMarket\GoldenMarket.WinForm\obj\Debug\GoldenMarket.WinForm.frmCustomerManager.resources
+C:\Users\Altinok\source\repos\GoldenMarket\GoldenMarket.WinForm\obj\Debug\GoldenMarket.WinForm.frmProductTypeList.resources
+C:\Users\Altinok\source\repos\GoldenMarket\GoldenMarket.WinForm\obj\Debug\GoldenMarket.WinForm.frmProductTypeManager.resources
+C:\Users\Altinok\source\repos\GoldenMarket\GoldenMarket.WinForm\obj\Debug\GoldenMarket.WinForm.frmSalesmanList.resources
+C:\Users\Altinok\source\repos\GoldenMarket\GoldenMarket.WinForm\obj\Debug\GoldenMarket.WinForm.frmSalesmanManager.resources
+C:\Users\Altinok\source\repos\GoldenMarket\GoldenMarket.WinForm\obj\Debug\GoldenMarket.WinForm.frmSalesScreen.resources
+C:\Users\Altinok\source\repos\GoldenMarket\GoldenMarket.WinForm\obj\Debug\GoldenMarket.WinForm.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\Kurs Dosyaları\repos\repos\GoldenMarket\GoldenMarket.WinForm\bin\Debug\GoldenMarket.WinForm.exe.config
+C:\Users\User\Documents\Kurs Dosyaları\repos\repos\GoldenMarket\GoldenMarket.WinForm\bin\Debug\GoldenMarket.WinForm.exe
+C:\Users\User\Documents\Kurs Dosyaları\repos\repos\GoldenMarket\GoldenMarket.WinForm\bin\Debug\GoldenMarket.WinForm.pdb
+C:\Users\User\Documents\Kurs Dosyaları\repos\repos\GoldenMarket\GoldenMarket.WinForm\bin\Debug\GoldenMarket.Business.dll
+C:\Users\User\Documents\Kurs Dosyaları\repos\repos\GoldenMarket\GoldenMarket.WinForm\bin\Debug\GoldenMarket.Model.dll
+C:\Users\User\Documents\Kurs Dosyaları\repos\repos\GoldenMarket\GoldenMarket.WinForm\bin\Debug\GoldenMarket.Core.dll
+C:\Users\User\Documents\Kurs Dosyaları\repos\repos\GoldenMarket\GoldenMarket.WinForm\bin\Debug\Dapper.Contrib.dll
+C:\Users\User\Documents\Kurs Dosyaları\repos\repos\GoldenMarket\GoldenMarket.WinForm\bin\Debug\Dapper.dll
+C:\Users\User\Documents\Kurs Dosyaları\repos\repos\GoldenMarket\GoldenMarket.WinForm\bin\Debug\GoldenMarket.Business.pdb
+C:\Users\User\Documents\Kurs Dosyaları\repos\repos\GoldenMarket\GoldenMarket.WinForm\bin\Debug\GoldenMarket.Model.pdb
+C:\Users\User\Documents\Kurs Dosyaları\repos\repos\GoldenMarket\GoldenMarket.WinForm\bin\Debug\GoldenMarket.Core.pdb
+C:\Users\User\Documents\Kurs Dosyaları\repos\repos\GoldenMarket\GoldenMarket.WinForm\bin\Debug\Dapper.Contrib.xml
+C:\Users\User\Documents\Kurs Dosyaları\repos\repos\GoldenMarket\GoldenMarket.WinForm\bin\Debug\Dapper.xml
+C:\Users\User\Documents\Kurs Dosyaları\repos\repos\GoldenMarket\GoldenMarket.WinForm\obj\Debug\GoldenMarket.WinForm.csproj.AssemblyReference.cache
+C:\Users\User\Documents\Kurs Dosyaları\repos\repos\GoldenMarket\GoldenMarket.WinForm\obj\Debug\GoldenMarket.WinForm.frmCompanyList.resources
+C:\Users\User\Documents\Kurs Dosyaları\repos\repos\GoldenMarket\GoldenMarket.WinForm\obj\Debug\GoldenMarket.WinForm.frmCompanyManager.resources
+C:\Users\User\Documents\Kurs Dosyaları\repos\repos\GoldenMarket\GoldenMarket.WinForm\obj\Debug\GoldenMarket.WinForm.frmCustomerList.resources
+C:\Users\User\Documents\Kurs Dosyaları\repos\repos\GoldenMarket\GoldenMarket.WinForm\obj\Debug\GoldenMarket.WinForm.frmCustomerManager.resources
+C:\Users\User\Documents\Kurs Dosyaları\repos\repos\GoldenMarket\GoldenMarket.WinForm\obj\Debug\GoldenMarket.WinForm.Form1.resources
+C:\Users\User\Documents\Kurs Dosyaları\repos\repos\GoldenMarket\GoldenMarket.WinForm\obj\Debug\GoldenMarket.WinForm.frmProductList.resources
+C:\Users\User\Documents\Kurs Dosyaları\repos\repos\GoldenMarket\GoldenMarket.WinForm\obj\Debug\GoldenMarket.WinForm.frmProductManager.resources
+C:\Users\User\Documents\Kurs Dosyaları\repos\repos\GoldenMarket\GoldenMarket.WinForm\obj\Debug\GoldenMarket.WinForm.frmProductTypeList.resources
+C:\Users\User\Documents\Kurs Dosyaları\repos\repos\GoldenMarket\GoldenMarket.WinForm\obj\Debug\GoldenMarket.WinForm.frmProductTypeManager.resources
+C:\Users\User\Documents\Kurs Dosyaları\repos\repos\GoldenMarket\GoldenMarket.WinForm\obj\Debug\GoldenMarket.WinForm.frmSalesmanList.resources
+C:\Users\User\Documents\Kurs Dosyaları\repos\repos\GoldenMarket\GoldenMarket.WinForm\obj\Debug\GoldenMarket.WinForm.frmSalesmanManager.resources
+C:\Users\User\Documents\Kurs Dosyaları\repos\repos\GoldenMarket\GoldenMarket.WinForm\obj\Debug\GoldenMarket.WinForm.frmSalesScreen.resources
+C:\Users\User\Documents\Kurs Dosyaları\repos\repos\GoldenMarket\GoldenMarket.WinForm\obj\Debug\GoldenMarket.WinForm.Properties.Resources.resources
+C:\Users\User\Documents\Kurs Dosyaları\repos\repos\GoldenMarket\GoldenMarket.WinForm\obj\Debug\GoldenMarket.WinForm.csproj.GenerateResource.cache
+C:\Users\User\Documents\Kurs Dosyaları\repos\repos\GoldenMarket\GoldenMarket.WinForm\obj\Debug\GoldenMarket.WinForm.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\Kurs Dosyaları\repos\repos\GoldenMarket\GoldenMarket.WinForm\obj\Debug\GoldenMarket.WinForm.csproj.CopyComplete
+C:\Users\User\Documents\Kurs Dosyaları\repos\repos\GoldenMarket\GoldenMarket.WinForm\obj\Debug\GoldenMarket.WinForm.exe
+C:\Users\User\Documents\Kurs Dosyaları\repos\repos\GoldenMarket\GoldenMarket.WinForm\obj\Debug\GoldenMarket.WinForm.pdb

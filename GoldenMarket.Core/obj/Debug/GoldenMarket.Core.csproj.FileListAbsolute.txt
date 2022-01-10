@@ -1,0 +1,26 @@
+C:\Users\Altinok\source\repos\GoldenMarket\GoldenMarket.Core\bin\Debug\GoldenMarket.Core.dll
+C:\Users\Altinok\source\repos\GoldenMarket\GoldenMarket.Core\bin\Debug\GoldenMarket.Core.pdb
+C:\Users\Altinok\source\repos\GoldenMarket\GoldenMarket.Core\obj\Debug\GoldenMarket.Core.dll
+C:\Users\Altinok\source\repos\GoldenMarket\GoldenMarket.Core\obj\Debug\GoldenMarket.Core.pdb
+C:\Users\Altinok\source\repos\GoldenMarket\GoldenMarket.Core\bin\Debug\GoldenMarket.Model.dll
+C:\Users\Altinok\source\repos\GoldenMarket\GoldenMarket.Core\bin\Debug\GoldenMarket.Model.pdb
+C:\Users\Altinok\source\repos\GoldenMarket\GoldenMarket.Core\obj\Debug\GoldenMarket.Core.csprojAssemblyReference.cache
+C:\Users\Altinok\source\repos\GoldenMarket\GoldenMarket.Core\obj\Debug\GoldenMarket.Core.csproj.CopyComplete
+C:\Users\Altinok\source\repos\GoldenMarket\GoldenMarket.Core\bin\Debug\Dapper.Contrib.dll
+C:\Users\Altinok\source\repos\GoldenMarket\GoldenMarket.Core\bin\Debug\Dapper.dll
+C:\Users\Altinok\source\repos\GoldenMarket\GoldenMarket.Core\bin\Debug\Dapper.xml
+C:\Users\Altinok\source\repos\GoldenMarket\GoldenMarket.Core\bin\Debug\Dapper.Contrib.xml
+C:\Users\Altinok\source\repos\GoldenMarket\GoldenMarket.Core\obj\Debug\GoldenMarket.Core.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\Kurs Dosyaları\repos\repos\GoldenMarket\GoldenMarket.Core\bin\Debug\GoldenMarket.Core.dll
+C:\Users\User\Documents\Kurs Dosyaları\repos\repos\GoldenMarket\GoldenMarket.Core\bin\Debug\GoldenMarket.Core.pdb
+C:\Users\User\Documents\Kurs Dosyaları\repos\repos\GoldenMarket\GoldenMarket.Core\bin\Debug\Dapper.Contrib.dll
+C:\Users\User\Documents\Kurs Dosyaları\repos\repos\GoldenMarket\GoldenMarket.Core\bin\Debug\Dapper.dll
+C:\Users\User\Documents\Kurs Dosyaları\repos\repos\GoldenMarket\GoldenMarket.Core\bin\Debug\GoldenMarket.Model.dll
+C:\Users\User\Documents\Kurs Dosyaları\repos\repos\GoldenMarket\GoldenMarket.Core\bin\Debug\GoldenMarket.Model.pdb
+C:\Users\User\Documents\Kurs Dosyaları\repos\repos\GoldenMarket\GoldenMarket.Core\bin\Debug\Dapper.xml
+C:\Users\User\Documents\Kurs Dosyaları\repos\repos\GoldenMarket\GoldenMarket.Core\bin\Debug\Dapper.Contrib.xml
+C:\Users\User\Documents\Kurs Dosyaları\repos\repos\GoldenMarket\GoldenMarket.Core\obj\Debug\GoldenMarket.Core.csproj.AssemblyReference.cache
+C:\Users\User\Documents\Kurs Dosyaları\repos\repos\GoldenMarket\GoldenMarket.Core\obj\Debug\GoldenMarket.Core.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\Kurs Dosyaları\repos\repos\GoldenMarket\GoldenMarket.Core\obj\Debug\GoldenMarket.Core.csproj.CopyComplete
+C:\Users\User\Documents\Kurs Dosyaları\repos\repos\GoldenMarket\GoldenMarket.Core\obj\Debug\GoldenMarket.Core.dll
+C:\Users\User\Documents\Kurs Dosyaları\repos\repos\GoldenMarket\GoldenMarket.Core\obj\Debug\GoldenMarket.Core.pdb
