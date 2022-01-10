@@ -84,7 +84,7 @@ namespace GoldenMarket.WinForm
 
         private void frmProductManager_Load(object sender, EventArgs e)
         {
-             
+            GetCompanies();
             GetProductType();
 
             if (ProductId == 0)

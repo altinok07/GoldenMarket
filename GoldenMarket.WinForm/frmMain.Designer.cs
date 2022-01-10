@@ -40,8 +40,11 @@
             this.btnAddCompany = new System.Windows.Forms.ToolStripMenuItem();
             this.btnGetCompanies = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripSeparator();
+            this.btnSalesman = new System.Windows.Forms.ToolStripMenuItem();
+            this.btnAddSalesman = new System.Windows.Forms.ToolStripMenuItem();
+            this.btnGetSalesman = new System.Windows.Forms.ToolStripMenuItem();
             this.kullanıcıİşlemleriToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.satışYapToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.btnSales = new System.Windows.Forms.ToolStripMenuItem();
             this.stokİşlemleriToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.btnAddProduct = new System.Windows.Forms.ToolStripMenuItem();
             this.btnGetProducts = new System.Windows.Forms.ToolStripMenuItem();
@@ -53,9 +56,6 @@
             this.yardımToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.hakkımdaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.btnSalesman = new System.Windows.Forms.ToolStripMenuItem();
-            this.btnAddSalesman = new System.Windows.Forms.ToolStripMenuItem();
-            this.btnGetSalesman = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -149,19 +149,43 @@
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
             this.toolStripMenuItem1.Size = new System.Drawing.Size(177, 6);
             // 
+            // btnSalesman
+            // 
+            this.btnSalesman.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.btnAddSalesman,
+            this.btnGetSalesman});
+            this.btnSalesman.Name = "btnSalesman";
+            this.btnSalesman.Size = new System.Drawing.Size(180, 22);
+            this.btnSalesman.Text = "Plasiyerler";
+            // 
+            // btnAddSalesman
+            // 
+            this.btnAddSalesman.Name = "btnAddSalesman";
+            this.btnAddSalesman.Size = new System.Drawing.Size(166, 22);
+            this.btnAddSalesman.Text = "Plasiyer Ekle";
+            this.btnAddSalesman.Click += new System.EventHandler(this.btnAddSalesman_Click);
+            // 
+            // btnGetSalesman
+            // 
+            this.btnGetSalesman.Name = "btnGetSalesman";
+            this.btnGetSalesman.Size = new System.Drawing.Size(166, 22);
+            this.btnGetSalesman.Text = "Plasiyerleri Listele";
+            this.btnGetSalesman.Click += new System.EventHandler(this.btnGetSalesman_Click);
+            // 
             // kullanıcıİşlemleriToolStripMenuItem
             // 
             this.kullanıcıİşlemleriToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.satışYapToolStripMenuItem});
+            this.btnSales});
             this.kullanıcıİşlemleriToolStripMenuItem.Name = "kullanıcıİşlemleriToolStripMenuItem";
             this.kullanıcıİşlemleriToolStripMenuItem.Size = new System.Drawing.Size(77, 20);
             this.kullanıcıİşlemleriToolStripMenuItem.Text = "Satış İşlemi";
             // 
-            // satışYapToolStripMenuItem
+            // btnSales
             // 
-            this.satışYapToolStripMenuItem.Name = "satışYapToolStripMenuItem";
-            this.satışYapToolStripMenuItem.Size = new System.Drawing.Size(120, 22);
-            this.satışYapToolStripMenuItem.Text = "Satış Yap";
+            this.btnSales.Name = "btnSales";
+            this.btnSales.Size = new System.Drawing.Size(180, 22);
+            this.btnSales.Text = "Satış Yap";
+            this.btnSales.Click += new System.EventHandler(this.btnSales_Click);
             // 
             // stokİşlemleriToolStripMenuItem
             // 
@@ -177,28 +201,28 @@
             // btnAddProduct
             // 
             this.btnAddProduct.Name = "btnAddProduct";
-            this.btnAddProduct.Size = new System.Drawing.Size(180, 22);
+            this.btnAddProduct.Size = new System.Drawing.Size(163, 22);
             this.btnAddProduct.Text = "Ürün Ekle";
             this.btnAddProduct.Click += new System.EventHandler(this.btnAddProduct_Click);
             // 
             // btnGetProducts
             // 
             this.btnGetProducts.Name = "btnGetProducts";
-            this.btnGetProducts.Size = new System.Drawing.Size(180, 22);
+            this.btnGetProducts.Size = new System.Drawing.Size(163, 22);
             this.btnGetProducts.Text = "Ürünleri Listele";
             this.btnGetProducts.Click += new System.EventHandler(this.btnGetProducts_Click);
             // 
             // btnAddProductType
             // 
             this.btnAddProductType.Name = "btnAddProductType";
-            this.btnAddProductType.Size = new System.Drawing.Size(180, 22);
+            this.btnAddProductType.Size = new System.Drawing.Size(163, 22);
             this.btnAddProductType.Text = "Ürün Türü Ekle";
             this.btnAddProductType.Click += new System.EventHandler(this.btnAddProductType_Click);
             // 
             // btnGetProductTypes
             // 
             this.btnGetProductTypes.Name = "btnGetProductTypes";
-            this.btnGetProductTypes.Size = new System.Drawing.Size(180, 22);
+            this.btnGetProductTypes.Size = new System.Drawing.Size(163, 22);
             this.btnGetProductTypes.Text = "Ürün Türü Listele";
             this.btnGetProductTypes.Click += new System.EventHandler(this.btnGetProductTypes_Click);
             // 
@@ -242,29 +266,6 @@
             this.contextMenuStrip1.Name = "contextMenuStrip1";
             this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
             // 
-            // btnSalesman
-            // 
-            this.btnSalesman.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.btnAddSalesman,
-            this.btnGetSalesman});
-            this.btnSalesman.Name = "btnSalesman";
-            this.btnSalesman.Size = new System.Drawing.Size(180, 22);
-            this.btnSalesman.Text = "Plasiyerler";
-            // 
-            // btnAddSalesman
-            // 
-            this.btnAddSalesman.Name = "btnAddSalesman";
-            this.btnAddSalesman.Size = new System.Drawing.Size(180, 22);
-            this.btnAddSalesman.Text = "Plasiyer Ekle";
-            this.btnAddSalesman.Click += new System.EventHandler(this.btnAddSalesman_Click);
-            // 
-            // btnGetSalesman
-            // 
-            this.btnGetSalesman.Name = "btnGetSalesman";
-            this.btnGetSalesman.Size = new System.Drawing.Size(180, 22);
-            this.btnGetSalesman.Text = "Plasiyerleri Listele";
-            this.btnGetSalesman.Click += new System.EventHandler(this.btnGetSalesman_Click);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -303,7 +304,7 @@
         private System.Windows.Forms.ToolStripMenuItem yardımToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem hakkımdaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem kullanıcıİşlemleriToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem satışYapToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem btnSales;
         private System.Windows.Forms.ToolStripMenuItem btnAddInvoice;
         private System.Windows.Forms.ToolStripMenuItem btnGetInvoice;
         private System.Windows.Forms.ToolStripSeparator toolStripMenuItem1;

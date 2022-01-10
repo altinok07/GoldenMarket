@@ -76,5 +76,11 @@ namespace GoldenMarket.WinForm
             frmSalesmanList salesmanList = new frmSalesmanList();
             salesmanList.ShowDialog();
         }
+
+        private void btnSales_Click(object sender, EventArgs e)
+        {
+            frmSalesScreen salesScreen = new frmSalesScreen();
+            salesScreen.ShowDialog();
+        }
     }
 }
